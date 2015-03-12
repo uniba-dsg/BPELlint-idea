@@ -1,0 +1,47 @@
+<idea-plugin version="2">
+  <id>com.bpellint.idea</id>
+  <name>BPELlint-idea</name>
+  <version>0.1-alpha</version>
+  <vendor email="simon.harrer@gmail.com" url="http://www.yourcompany.com">Simon Harrer</vendor>
+
+  <description><![CDATA[
+      Validates BPEL and WSDL files using 60 static analysis rules of the BPEL specification.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial Release<br>
+      <em>71 static analysis rules </em>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="139"/>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+
+    <component>
+      <implementation-class>com.bpellint.idea.BPELlintApplicationComponent</implementation-class>
+    </component>
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
