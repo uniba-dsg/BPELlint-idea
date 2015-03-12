@@ -1,17 +1,16 @@
 <idea-plugin version="2">
   <id>com.bpellint.idea</id>
   <name>BPELlint-idea</name>
-  <version>0.1-alpha</version>
-  <vendor email="simon.harrer@gmail.com" url="http://www.yourcompany.com">Simon Harrer</vendor>
+  <version>0.2-alpha</version>
+  <vendor email="simon.harrer@gmail.com" url="http://about.me/sharrer">Simon Harrer</vendor>
 
   <description><![CDATA[
-      Validates BPEL and WSDL files using 60 static analysis rules of the BPEL specification.<br>
-      <em>most HTML tags may be used</em>
+      Validates WS-BPEL 2.0 and WSDL 1.1 files using 71 of the 95 static analysis rules of the WS-BPEL 2.0 specification.
     ]]></description>
 
   <change-notes><![CDATA[
       Initial Release<br>
-      <em>71 static analysis rules </em>
+      <em>Supports 71 static analysis rules </em>
     ]]>
   </change-notes>
 
